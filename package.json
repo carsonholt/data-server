@@ -1,0 +1,19 @@
+{
+  "name": "final-frontier-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carsonholt/cis526-assignment-3.git"
+  },
+  "author": "Carson Holt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carsonholt/cis526-assignment-3/issues"
+  },
+  "homepage": "https://github.com/carsonholt/cis526-assignment-3#readme"
+}

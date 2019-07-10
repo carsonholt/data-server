@@ -1,0 +1,49 @@
+/** final-frontier.css
+ * CSS rules for the final frontier CMS app 
+ * 
+ * Place your custom CSS rules in this document 
+ */
+div {
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: TNG Credits;
+    text-align: center;
+}
+
+p {
+    font: Verdanda;
+}
+
+#content {
+    box-shadow: 5px 10px #888888;
+    border-radius: 25px;
+    height: 300px;
+    overflow: scroll;
+}
+
+.card {
+    height: 300px;
+    width: 400px;
+    box-shadow: 5px 10px #888888;
+    border-color: black;
+    border-radius: 25px;
+}
+
+.expanded {
+    
+}
+
+@ media only screen and (min-width: 491px) {
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+    }
+}
+
+@ media only screen and (max-width: 490px) {
+    
+}
